@@ -1,7 +1,6 @@
 
-### CV_Finetuning_seg
-Segmentation model Finetuning <br>
-[프로젝트 PPT](https://github.com/LIMSCODE/CV_Finetuning_seg/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%EB%B9%84%EC%A0%84%20HW3.pptx)
+### Segmentation model Finetuning <br>
+[프로젝트 PPT 링크](https://github.com/LIMSCODE/CV_Finetuning_seg/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%EB%B9%84%EC%A0%84%20HW3.pptx)
 <br><br>
 
 #### [cv_1) 이미지 특징추출후 SVM학습, 예측값생성](https://github.com/LIMSCODE/CV_finetuning/blob/main/cv_1.ipynb)
