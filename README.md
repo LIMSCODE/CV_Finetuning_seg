@@ -1,8 +1,9 @@
 # CV_Finetuning_seg
-Segmentation model Finetuning
+Segmentation model Finetuning <br>
 [프로젝트설명PPT](https://github.com/LIMSCODE/CV_Finetuning_seg/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%EB%B9%84%EC%A0%84%20HW3.pptx)
+<br>
 
-## [cv_1) 이미지 특징추출후 SVM학습, 예측값생성](https://github.com/LIMSCODE/CV_finetuning/blob/main/cv_1.ipynb)
+### [cv_1) 이미지 특징추출후 SVM학습, 예측값생성](https://github.com/LIMSCODE/CV_finetuning/blob/main/cv_1.ipynb)
 #### 1-1) 이미지특징 추출 <br>
 이미지에서 특징추출 (SIFT descriptor)  <br>
 PCA로 정규화된 특징벡터 생성 (features) <br>
@@ -15,7 +16,7 @@ SVM학습 (model.fit(X_train, Y_train)) <br>
 모델예측값생성 (y_pred = mode.predict(X_test)) <br>
 Confusion Matrix생성 (Confusion_Matrix = confusion_matrix(y_test, y_pred)) <br>
   
-## [cv_2) MLP,CNN구현, 학습, 성능평가](https://github.com/LIMSCODE/CV_finetuning/blob/main/cv_2.ipynb)
+### [cv_2) MLP,CNN구현, 학습, 성능평가](https://github.com/LIMSCODE/CV_finetuning/blob/main/cv_2.ipynb)
 #### 2-1 ) EuroSAT 데이터셋전처리 <br>
 EuroSAT데이터셋 다운로드, 전처리 <br>
 train, val, test 데이터셋으로 분할  <br>
@@ -33,7 +34,7 @@ Adam옵티마이저 적용하여 모델업데이트   <br>
 테스트데이터셋으로 성능평가하여 CNN성능이 더좋음을확인  <br>
 (MLP:1차원벡터변환으로 공간구조손실 / CNN:공간구조유지한 convolution연산구조) <br>
  
-## [cv_3) Segmentation 모델 finetuning, 성능평가](https://github.com/LIMSCODE/CV_finetuning/blob/main/cv_3.ipynb)
+### [cv_3) Segmentation 모델 finetuning, 성능평가](https://github.com/LIMSCODE/CV_finetuning/blob/main/cv_3.ipynb)
 #### 3-1 ) Segmentation 모델선택  , Segmentation테스트  <br>
 모델 : COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml  <br>
 풍선이미지 데이터셋 다운로드 / 전처리 (def get_balloon_dicts) <br>
