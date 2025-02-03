@@ -2,8 +2,9 @@
 ### Segmentation model Finetuning <br>
 [프로젝트 PPT 링크](https://github.com/LIMSCODE/CV_Finetuning_seg/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%EB%B9%84%EC%A0%84%20HW3.pptx)
 <br><br>
-
 #### [cv_3) Segmentation 모델 finetuning, 성능평가](https://github.com/LIMSCODE/CV_finetuning_seg/blob/main/cv_3.ipynb)
+![image](https://github.com/user-attachments/assets/39a12795-996f-4e37-813a-47cc97bb4be4)
+
 ##### 3-1 ) Segmentation 모델선택  , Segmentation테스트 
 ```
 모델 : COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml   
