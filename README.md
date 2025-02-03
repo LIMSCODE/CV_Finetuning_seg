@@ -1,5 +1,8 @@
 
 ### Segmentation model Finetuning <br>
+Mask-RCNN모델을 풍선데이터로 파인튜닝후 
+증가된 Segmentation성능을 AP,AR 측정하여 확인한다.
+
 [프로젝트 PPT 링크](https://github.com/LIMSCODE/CV_Finetuning_seg/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%EB%B9%84%EC%A0%84%20HW3.pptx)
 <br><br>
 #### [cv_3) Segmentation 모델 finetuning, 성능평가](https://github.com/LIMSCODE/CV_finetuning_seg/blob/main/cv_3.ipynb) 
