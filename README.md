@@ -2,8 +2,9 @@
 ### Segmentation model Finetuning <br>
 [프로젝트 PPT 링크](https://github.com/LIMSCODE/CV_Finetuning_seg/blob/main/%EC%BB%B4%ED%93%A8%ED%84%B0%EB%B9%84%EC%A0%84%20HW3.pptx)
 <br><br>
-#### [cv_3) Segmentation 모델 finetuning, 성능평가](https://github.com/LIMSCODE/CV_finetuning_seg/blob/main/cv_3.ipynb)
-![image](https://github.com/user-attachments/assets/39a12795-996f-4e37-813a-47cc97bb4be4)
+#### [cv_3) Segmentation 모델 finetuning, 성능평가](https://github.com/LIMSCODE/CV_finetuning_seg/blob/main/cv_3.ipynb) 
+![image](https://github.com/user-attachments/assets/25c9a3d7-2659-4132-8073-e4e19f630ac4)
+
 
 ##### 3-1 ) Segmentation 모델선택  , Segmentation테스트 
 ```
