@@ -6,14 +6,14 @@
 #### [cv_3) Segmentation 모델 finetuning, 성능평가](https://github.com/LIMSCODE/CV_finetuning/blob/main/cv_3.ipynb)
 ##### 3-1 ) Segmentation 모델선택  , Segmentation테스트 
 ```
-모델 : COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml  <br>
-풍선이미지 데이터셋 다운로드 / 전처리 (def get_balloon_dicts) <br>
-풍선이미지 데이터셋을 모델에 적용한 segmentation결과확인   <br>
+모델 : COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml   
+풍선이미지 데이터셋 다운로드 / 전처리 (def get_balloon_dicts) 
+풍선이미지 데이터셋을 모델에 적용한 segmentation결과확인  
 ```
 ##### 3-2 ) Segmentation 모델 finetuning 
 ```
-파인튜닝 config 설정 <br>
-모델 디렉토리생성 <br>
+파인튜닝 config 설정 
+모델 디렉토리생성  
 모델 학습 (trainer = DefaultTrainer(cfg))
 ```
 ##### 3-3 ) 모델 성능평가 (COCOEvaluator사용, AP, AR측정)
